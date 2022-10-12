@@ -1,0 +1,220 @@
+             * {
+                 margin: 0;
+                 padding: 0;
+                 text-decoration: none;
+                 list-style: none;
+             }
+
+             :root {
+                 --font-family: "Mulish", sans-serif;
+                 --bgcolor: #e5e5e5;
+                 --main-color: rgba(69, 143, 246, 1);
+                 --black: #000;
+                 --white: #fff;
+                 --text-color: rgba(125, 121, 135, 1);
+                 --menu-item: #1F1534;
+             }
+
+             .container {
+                 max-width: 1200px;
+                 margin: 0 auto;
+             }
+
+             header nav {
+                 padding: 55px 0;
+                 display: flex;
+                 justify-content: space-between;
+                 align-items: center;
+             }
+
+             header nav .logo {
+                 display: flex;
+                 align-items: center;
+             }
+
+             header nav .logo span {
+                 background-color: var(--main-color);
+                 font-family: 'Mulish';
+                 color: var(--white);
+                 font: normal 700 26px/33px var(--font-family);
+                 padding: 5px 13px;
+                 border-radius: 50%;
+             }
+
+             header nav .logo p {
+                 font: normal 700 24px/30px var(--font-family);
+                 color: #233348;
+                 margin-left: 10px;
+             }
+
+             header nav .menu ul li {
+                 display: inline;
+             }
+
+             header nav .menu ul li a {
+                 font: normal 400 18px/23px var(--font-family);
+                 color: var(--menu-item);
+                 opacity: 0.5;
+                 margin-left: 40px;
+             }
+
+             header nav .menu ul li a:hover {
+                 color: var(--menu-item);
+                 opacity: 1;
+             }
+
+             #main {
+                 margin-top: 126px;
+             }
+
+             main .maiin {
+                 display: flex;
+             }
+
+             main .title {
+                 display: flex;
+                 flex-direction: column;
+                 gap: 25px;
+             }
+
+             main .title .top {
+                 color: var(--black);
+                 font: normal 700 48px/56px var(--font-family);
+             }
+
+             main .title .mid {
+                 color: var(--text-color);
+                 font: normal 300 21px/32px var(--font-family);
+             }
+
+             main .mid-button {
+                 background-color: var(--main-color);
+                 border: 0;
+                 padding: 1px 50px;
+                 width: 230px;
+                 color: var(--white);
+                 font: normal 700 18px/60px var(--font-family);
+                 border-radius: 55px;
+                 margin-top: 48px;
+                 cursor: pointer;
+             }
+
+             main .maiin .image {
+                 position: relative;
+                 left: 80px;
+                 top: -177px;
+
+             }
+
+             main .Our-Services-title {
+                 display: flex;
+                 flex-direction: column;
+                 justify-content: center;
+                 align-items: center;
+             }
+
+             main .Our-Services {
+                 text-align: center;
+                 font: normal 700 36px/56px var(--font-family);
+             }
+
+             main .line {
+                 margin-top: 15px;
+                 border: 2px solid rgba(0, 0, 0, 1);
+                 width: 56px;
+                 height: -0px;
+                 margin-bottom: 23px;
+             }
+
+             main .Our-Services-title1 {
+                 color: var(--text-color);
+                 font: normal 300 18px/30px var(--font-family);
+                 display: flex;
+
+             }
+
+             main .Our-Services-title2 {
+                 color: var(--text-color);
+                 font: normal 300 18px/30px var(--font-family);
+                 display: flex;
+             }
+
+             main .fl {
+                 display: flex;
+                 flex-wrap: wrap;
+                 align-items: flex-start;
+                 flex-direction: row;
+                 max-height: 100vh;
+                 margin-left: 25px;
+                 margin-bottom: 30px;
+             }
+
+             main .fl .box {
+                 width: 350px;
+                 height: 354px;
+                 background-color: var(--white);
+                 margin: 17px;
+                 box-shadow: 0 30px 40px 20px rgba(229, 233, 246, 0.4);
+                 border-radius: 20px;
+             }
+
+             main .fl .box .fl-title {
+                 color: #000000;
+                 font: normal 700 24px/56px var(--font-family);
+                 position: relative;
+
+                 left: 40px;
+                 display: flex;
+                 flex-direction: column;
+                 width: 270px;
+             }
+
+             main .fl .box .fl-title .fl-title1 {
+                 color: var(--text-color);
+                 font: normal 300 16px/28px var(--font-family);
+             }
+
+
+
+             main .fl .box .fl-title .fl-title1 img {
+                 display: flex;
+                 justify-content: center;
+                 align-items: center;
+             }
+
+
+
+             main .l-m_button {
+                 background-color: transparent;
+                 border: 1.4px solid var(--main-color);
+                 font: normal 700 18px/60px var(--font-family);
+                 color: var(--main-color);
+                 padding: 0 56px;
+                 border-radius: 55px;
+                 display: flex;
+                 margin: 0 auto;
+                 cursor: pointer;
+                 transition: all 500ms;
+             }
+
+             main .l-m_button:hover {
+                 background-color: var(--main-color);
+                 color: white;
+                 transition: all 500ms;
+             }
+
+             ::-webkit-scrollbar {
+                 width: 10px;
+             }
+
+             ::-webkit-scrollbar-track {
+                 background: #f1f1f1;
+             }
+
+             ::-webkit-scrollbar-thumb {
+                 background: #888;
+             }
+
+             ::-webkit-scrollbar-thumb:hover {
+                 background: #555;
+             }
